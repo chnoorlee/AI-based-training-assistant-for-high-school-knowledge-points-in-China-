@@ -1,0 +1,42 @@
+[
+  {
+    "version": "20260604T082037-0",
+    "promoted": true,
+    "reason": "首个模型，ensemble_auc=0.582，晋升",
+    "metrics": {
+      "ncd_auc": 0.5756158964215069,
+      "ncd_acc": 0.5533333333333333,
+      "dkt_auc": 0.5884732961697536,
+      "dkt_acc": 0.5666666666666667,
+      "ensemble_auc": 0.5815500809206977,
+      "ensemble_acc": 0.55,
+      "n_test": 300
+    },
+    "n_interactions": 19443,
+    "n_students": 300,
+    "base_version": null,
+    "incremental": false,
+    "ts": "2026-06-04T08:20:37.706438+00:00",
+    "bootstrapped": false
+  },
+  {
+    "version": "20260604T082053-1",
+    "promoted": true,
+    "reason": "ensemble_auc=0.620 ≥ 在线 0.582-0.01，晋升",
+    "metrics": {
+      "ncd_auc": 0.5818982198142415,
+      "ncd_acc": 0.58,
+      "dkt_auc": 0.611890479876161,
+      "dkt_acc": 0.58,
+      "ensemble_auc": 0.6202270381836945,
+      "ensemble_acc": 0.604,
+      "n_test": 500
+    },
+    "n_interactions": 32726,
+    "n_students": 500,
+    "base_version": "20260604T082037-0",
+    "incremental": true,
+    "ts": "2026-06-04T08:20:53.132068+00:00",
+    "bootstrapped": false
+  }
+]

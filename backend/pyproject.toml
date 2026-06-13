@@ -1,0 +1,15 @@
+[project]
+name = "zhikaotong-backend"
+version = "0.1.0"
+description = "智考通 · 基于认知诊断的高考自适应备考助手（数学学科 MVP 后端）"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+# 让 `app` 包在 backend/ 下直接可被 import（pytest 7+ 支持）
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
