@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "智考通",
+    "slug": "zhikaotong-student",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": { "backgroundColor": "#4f46e5" },
+    "ios": { "supportsTablet": true },
+    "android": { "adaptiveIcon": { "backgroundColor": "#4f46e5" } },
+    "web": { "bundler": "metro" },
+    "extra": {
+      "apiBase": "http://127.0.0.1:8000/api/v1"
+    }
+  }
+}
